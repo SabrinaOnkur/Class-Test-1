@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		@import url('https://fonts.maateen.me/bangla/font.css');
+	.head{
+		height: 400px;
+		width:1360px;
+		border: black 3px solid;
+		position: absolute;
+		top: 0;
+		left: 0;
+}
+.nav{
+	    height: 70px;
+		width:1360px;
+		background-color: #9400D3;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+}
+.search{
+	position: absolute;
+		top: 20px;
+		left: 800px;
+}
+.submit{
+	position: absolute;
+		top: 20px;
+		left: 950px;
+}
+.btn{
+	position: absolute;
+		top: 20px;
+		left: 1050px;
+}
+.sidebar{
+		height: 300px;
+		width:250px;
+		border: black 3px solid;
+		position: absolute;
+		top: 500px;
+		left: 1000px;
+}
+</style>
+
+	
+</head>
+<body>
+	<!-- 1st block -->
+	<div class="head">
+		<div class="nav">
+			<p style=" font-family: 'Bangla', Arial, sans-serif !important;">বাংলাদেশ জাতীয় ত্থ্য </p>
+		<p style=" font-family: 'Bangla', Arial, sans-serif !important;">বাতায়ন </p>
+		<input type="text" name="text" class="search" placeholder="search">
+		<input type="submit" name="submit" class="submit" value="search">
+		<button type="button" class="btn">English</button>
+		</div>
+	<div class="background1" style="background-image: url('1.png');">
+		
+	</div>
+	</div>
+
+	<!-- 2nd block -->
+	<div class="sidebar">
+			<p style=" font-family: 'Bangla', Arial, sans-serif !important;background-color:#9400D3;" >চেয়ারম্যান</p>
+	</div>
+</body>
+</html>
